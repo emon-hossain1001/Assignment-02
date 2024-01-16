@@ -292,6 +292,26 @@ nav {
     font-weight: 400;
 }
 
+/* footer related styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.social{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+.copyright{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
 
 
 
