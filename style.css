@@ -148,11 +148,12 @@ nav {
 }
 
 /* map and hotel section */
-.hotel-map{
+.hotel-map {
     display: flex;
     justify-content: space-around;
 
 }
+
 .hotel,
 .price {
     width: 40%;
@@ -169,10 +170,72 @@ nav {
     background: rgba(41, 206, 246, 0.05);
     padding: 2rem;
 }
-.discount-price{
+
+.discount-price {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+}
+.deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deal-1,
+.deal-3 {
+    background-image: url('./images/Group\ 39.png');
+    background-repeat: no-repeat;
+    padding: 2rem;
+    width: 70%;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.deal-2 {
+    background-image: url('./images/Group\ 40.png');
+    background-repeat: no-repeat;
+    padding: 2rem;
+    width: 70%;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.deal-01,
+.deal-02,
+.deal-03 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 2rem;
+    width: 40%;
+}
+.deal-01, .deal-03 {
+    margin-left: 50%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+/* get lost section */
+.get-lost {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    width: 80%;
+}
+.get-point{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.get-lost-description{
+    width: 40%;
+}
+.get-lost-img{
+    width: 40%;
 }
 
 
@@ -223,8 +286,7 @@ nav {
     .group-2,
     .group-3,
     .hotel-map,
-    .price
-    {
+    .price {
         display: flex;
         flex-direction: column;
         text-align: center;
