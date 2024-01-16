@@ -1,0 +1,233 @@
+/* common shared styles */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 0.5rem;
+    border: none;
+    background: #FF5400;
+    width: 10rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+/* nav bar section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-title img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav-heading {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #424248;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* banner 1 styles */
+.banner1-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner1-content {
+    border-radius: 1rem;
+    background-image: url('./images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 75%;
+    border: 0;
+    text-align: center;
+}
+
+.banner1-heading {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner1-description {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner1-form {
+    border-radius: 0.5rem;
+    border: 0;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    position: relative;
+    margin: 4rem auto;
+}
+
+.place {
+    border-radius: 0.5rem;
+    border: 0;
+    background: #FFF;
+    padding: 1rem;
+    width: 10rem;
+    margin-right: 0.5rem;
+}
+
+/* banner -2 related styles */
+.banner2 {
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.tour-info {
+    color: #131318B2;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.tour-img {
+    width: 80%;
+}
+
+.tour-description {
+    width: 80%;
+}
+
+/* Destination Related Styles */
+.description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Why Choose Us */
+.Choose {
+    text-align: center;
+}
+
+/* map and hotel section */
+.hotel-map{
+    display: flex;
+    justify-content: space-around;
+
+}
+.hotel,
+.price {
+    width: 40%;
+    border-radius: 1.5rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem;
+}
+
+.map {
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem;
+}
+.discount-price{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+
+
+/* responsive section */
+@media screen and (max-width:600px) {
+    nav {
+        display: inline-block;
+    }
+
+    .nav-bar li {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .nav-bar a {
+        margin-right: 1.2rem;
+    }
+
+    .banner1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner1-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner1-heading {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .place {
+        margin-bottom: 0.5rem;
+    }
+
+    .banner1-form {
+        display: grid;
+        grid-template-columns: repeat(1rem, 1fr);
+    }
+
+    .banner2,
+    .group-1,
+    .group-2,
+    .group-3,
+    .hotel-map,
+    .price
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+}
